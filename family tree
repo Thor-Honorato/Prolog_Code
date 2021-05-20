@@ -72,7 +72,7 @@ avó(X, Y) :- mãe(X, Z), mãe(Z, Y); mãe(X, Z), pai(Z, Y).
 filho(X, Y) :- gerou(X, Y), homem(Y).
 filha(X, Y) :- gerou(X, Y), mulher(Y).
 
-// Todos os tios e tias
+// Todos os tios
 tios(oziel, thor).
 tios(oziel, willian).
 tios(oziel, wendel).
@@ -80,6 +80,7 @@ tios(otoniel, thor).
 tios(otoniel, willian).
 tios(otoniel, wendel).
 
+// Todas as tias
 tias(alziane, thor).
 tias(alziane, willian).
 tias(alziane, wendel).
